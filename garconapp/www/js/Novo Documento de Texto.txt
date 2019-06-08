@@ -1,0 +1,21 @@
+$('#confirmar').on('click',	function() {
+				var	texto	=	"";
+
+			$('.badge').parent().each(function(){
+								texto	+=	this.firstChild.textContent	+	':	';
+								texto	+=	this.lastChild.textContent	+	',	';
+				});
+				$('#resumo').empty().text(texto);
+
+$('#confirmar').on('click',	function() {
+				var	texto	=	"";
+
+			$('.badge').parent().each(function(){
+								texto	+=	this.firstChild.textContent	+	':	';
+								texto	+=	this.lastChild.textContent	+	',	';
+				});
+				$('#resumo').empty().text(texto);
+});
+
+
+});
